@@ -1,288 +1,288 @@
-
 * {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-	font-family: sans-serif semi-bolder;
+    font-family: sans-serif semi-bolder;
 }
 
 .col-12 {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 header {
-	height: 100px;
-	background-color: #191919;
-	
+    height: 100px;
+    background-color: #191919;
+
 }
 
 .container-fluid {
-	padding: 0;
+    padding: 0;
 }
 
 .wrapper {
-	width: 76%;
-	margin: 0 auto;
-	flex-wrap: nowrap;
+    width: 76%;
+    margin: 0 auto;
+    flex-wrap: nowrap;
 }
 
 /* header */
 .logo {
-	margin-top: 31px;
+    margin-top: 31px;
 }
 
 .logo__work {
-	margin: 32px auto auto 350px;
+    margin: 32px auto auto 350px;
 }
 
-.logo__work p{
-	font-size: 8px;
-	font-weight: bold;
-	line-height: 15px;
-	text-align: center;
-	color: #fff;
+.logo__work p {
+    font-size: 8px;
+    font-weight: bold;
+    line-height: 15px;
+    text-align: center;
+    color: #fff;
 }
 
 .logo__phone {
-	margin-left: 9%;
-	margin-top: 24px
+    margin-left: 9%;
+    margin-top: 24px
 }
 
 .logo__phone p {
-	color: #fff;
-	font-weight: bold;
+    color: #fff;
+    font-weight: bold;
 }
 
 .logo__button {
-	display: block;
-	margin-top: 41px;
-	margin-left: auto;
+    display: block;
+    margin-top: 41px;
+    margin-left: auto;
 }
 
-.logo__button a {	
-	padding: 21px 28px;
-	color: #fff;
-	background-color: #1669b3;
-	font-weight: bold;
-	font-size: 12px;
-	text-transform: uppercase;
-	text-decoration: none;
-	text-align: center;
+.logo__button a {
+    padding: 21px 28px;
+    color: #fff;
+    background-color: #1669b3;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
 }
 
 .logo__button a:hover {
-	padding: 21px 28px;
-	color: #fff;
-	background-color: #095395;
-	text-decoration: none;
-	transition: 1s;
+    padding: 21px 28px;
+    color: #fff;
+    background-color: #095395;
+    text-decoration: none;
+    transition: 0.7s;
 }
 
 /* end header*/
 
 /* background-img belaz header */
 .background__img__top {
-	margin: 0;
-	padding: 0;
-	background: url(../img/header-img.png) no-repeat;
-	background-size: 100%;
+    margin: 0;
+    padding: 0;
+    background: url(../img/header-img.png) no-repeat;
+    background-size: 100%;
 }
 
 /*block yellow square*/
 
 .yellow__square {
-	display: block;
-	background-color: #f7b516;
-	height: 80%;
-	width: 45%;
+    display: block;
+    background-color: #f7b516;
+    height: 80%;
+    width: 45%;
 }
 
 .wrapper__square {
-	display: inline-block;
-	justify-content: center;
-	width: 80%;
-	margin-left: 40px;
-	
+    display: inline-block;
+    justify-content: center;
+    width: 80%;
+    margin-left: 40px;
+
 }
 
 .wrapper__square h1 {
-	padding-top: 100px;
-	text-transform: uppercase;
-	font-weight: bold;
+    padding-top: 100px;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 .wrapper__square span {
-	display: block;
-	margin-top: 40px;
-	font-weight: bold;
+    display: block;
+    margin-top: 40px;
+    font-weight: bold;
 }
 
 .listen {
-	margin-top: 40px;
-	display: block;
+    margin-top: 40px;
+    display: block;
 }
 
 
 .list-group li {
-	list-style: none;
-	font-weight: bold;
-	height: 30px;
-	margin-bottom: 35px;
+    list-style: none;
+    font-weight: bold;
+    height: 30px;
+    margin-bottom: 35px;
 }
 
 .list-group img {
-	float: left;
-	padding-right: 25px;
-	padding-top: 10px;
+    float: left;
+    padding-right: 25px;
+    padding-top: 10px;
 }
 
 
 .list-group p {
-	overflow: hidden;
+    overflow: hidden;
 }
 
 .bg-img__price {
-	margin: 0;
-	padding: 0;
-	background: url(../img/price-img.png) no-repeat center -50px;
-	background-size: 100%;
-	height: 50%;
+    margin: 0;
+    padding: 0;
+    background: url(../img/price-img.png) no-repeat center -50px;
+    background-size: 100%;
+    height: 50%;
 }
 
 .bg-color__price {
-	background-color: #08243e;
-	height: 50%;
+    background-color: #08243e;
+    height: 50%;
 }
 
 .form {
-	text-align: right;
-	display: flex;
-	justify-content: flex-end;
-	flex-direction: column;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
 }
 
 .form__input {
-	margin-top: 25px;
-	display: flex;
-	justify-content: flex-end;
+    margin-top: 25px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .form__img-1 {
-	background: url(../img/mail.png) no-repeat center right 20px;
-	background-size: 7%;
+    background: url(../img/mail.png) no-repeat center right 20px;
+    background-size: 7%;
 }
 
 .form__img-2 {
-	background: url(../img/phone.png) no-repeat center right 20px;
-	background-size: 7%;
+    background: url(../img/phone.png) no-repeat center right 20px;
+    background-size: 7%;
 }
 
 .h3 {
-	align-items: flex-start;
+    align-items: flex-start;
 }
 
-.mail, 
+.mail,
 .phone {
-	width: 350px;
-	justify-content: flex-end;
-	flex-basis: 25%;
-	align-items: center;
+    width: 350px;
+    justify-content: flex-end;
+    flex-basis: 25%;
+    align-items: center;
 }
 
 .mail input {
-	border: none;
-	width: 350px;
-	padding: 35px 45px;
+    border: none;
+    width: 350px;
+    padding: 35px 45px;
 }
 
 .phone input {
-	border: none;
-	width: 350px;
-	padding: 35px 45px;
+    border: none;
+    width: 350px;
+    padding: 35px 45px;
 }
 
 .form__price {
-	margin-top: 25px;
-	display: flex;
-	justify-content: flex-end;
+    margin-top: 25px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .btn__price,
 .price {
-	flex-basis: 33%;
-	align-items: flex-end;
-	font-weight: bold;
-	font-size: 0.9em;
-	background: url(../img/clock.png) no-repeat center right;
+    flex-basis: 33%;
+    align-items: flex-end;
+    font-weight: bold;
+    font-size: 0.9em;
+    background: url(../img/clock.png) no-repeat center right;
 }
 
-.price span{
-	width: 100%;
+.price span {
+    width: 100%;
     text-align: right;
     display: block;
     padding: 3px 45px;
 }
 
 .btn__price button {
-	width: 340px;
-	height: 60px;
-	background-color: #1866af;
-	color: #fff;
-	text-transform: uppercase;
-	font-weight: bold;
-	margin-left: 15px;
+    width: 340px;
+    height: 60px;
+    background-color: #1866af;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 15px;
 }
 
 .btn__price button:hover {
-	background-color: #2787e1;
+	background-color: #095395;
+	transition: 0.7s;
 }
 
 
 
 
 @media (max-width: 1366px) {
-	
-	.logo__work {
-	margin: 32px auto auto 250px;
-}
 
-	.wrapper__square h1 {
-		padding-top: 55px;
-		font-size: 26px;
-	}
+    .logo__work {
+        margin: 32px auto auto 250px;
+    }
 
-	.listen {
-		margin-top: 25px;
-	}
+    .wrapper__square h1 {
+        padding-top: 55px;
+        font-size: 26px;
+    }
+
+    .listen {
+        margin-top: 25px;
+    }
 }
 
 @media (max-width: 1200px) {
-	
-	.logo__work {
-	margin: 32px auto auto 100px;
-}
+
+    .logo__work {
+        margin: 32px auto auto 100px;
+    }
 }
 
 @media (max-width: 1000px) {
 
-	header div{
-		max-height: 100px;
-	}
+    header div {
+        max-height: 100px;
+    }
 
-	.wrapper__square h1 {
-		padding-top: 0;
-		font-size: 20px;
-	}
-	
-	.logo__work {
-	margin: 32px auto;
-}
+    .wrapper__square h1 {
+        padding-top: 0;
+        font-size: 20px;
+    }
 
-	.logo__phone {
-	margin-left: auto;
-	margin-top: 24px
-}
+    .logo__work {
+        margin: 32px auto;
+    }
+
+    .logo__phone {
+        margin-left: auto;
+        margin-top: 24px
+    }
 }
