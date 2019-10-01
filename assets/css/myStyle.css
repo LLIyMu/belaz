@@ -236,9 +236,31 @@ header {
 }
 
 .btn__price button:hover {
-	background-color: #095395;
-	transition: 0.7s;
+    background-color: #095395;
+    transition: 0.7s;
 }
+
+/* end price header*/
+
+.bg-color__price {
+    color: #fff;
+    text-align: center;
+	font-weight: bold;
+}
+
+.price__h2 {
+    width: 500px;
+    margin: 30px auto;
+}
+
+.price__h2 p {
+    margin: 15px auto;
+}
+
+.price__item p{
+    align-items: baseline;
+}
+
 
 
 
