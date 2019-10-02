@@ -287,6 +287,7 @@ header {
 }
 
 .h4 p {
+    line-height: 2em;
     display: block;
     margin-top: 30px;
     text-align: center;
@@ -355,6 +356,30 @@ header {
     color: rgb(56, 48, 48);
     font-weight: bold;
     font-size: 24px;
+}
+
+/* end waranty*/
+
+/*Discount block*/
+
+.discount {
+    margin-top: 80px;
+    height: 580px;
+    background: #08243e;
+    color: #fff;
+}
+
+.discount__h2 {
+    margin: 80px auto;
+}
+.discount__items {
+    text-align: center;
+}
+
+.discount__item img{
+    border: 2px solid #fff;
+    border-radius: 100%;
+    padding: 15px;
 }
 
 
