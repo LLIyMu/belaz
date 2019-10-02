@@ -153,7 +153,7 @@ header {
 
 .bg-color__price {
     background-color: #08243e;
-    height: 50%;
+    height: 70%;
 }
 
 .form {
@@ -189,6 +189,7 @@ header {
     justify-content: flex-end;
     flex-basis: 25%;
     align-items: center;
+
 }
 
 .mail input {
@@ -201,6 +202,7 @@ header {
     border: none;
     width: 350px;
     padding: 35px 45px;
+    background-color: #fff;
 }
 
 .form__price {
@@ -245,7 +247,7 @@ header {
 .bg-color__price {
     color: #fff;
     text-align: center;
-	font-weight: bold;
+    font-weight: bold;
 }
 
 .price__h2 {
@@ -257,8 +259,65 @@ header {
     margin: 15px auto;
 }
 
-.price__item p{
-    align-items: baseline;
+.price__items {
+    margin-top: 50px;
+}
+
+.price__item p {
+    padding-top: 20px;
+    vertical-align: baseline;
+}
+
+.price__item img {
+    height: 80px;
+}
+
+/* Spares block*/
+
+.spares__bg {
+   
+    background: url('../img/spares_bg_img.png') no-repeat center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+
+.form__spare {
+    margin: 100px auto 25px;
+    text-align: center;
+}
+
+.h4 p {
+    display: block;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.form__spare .h4 {
+    margin: 70px auto 25px;
+    font-size: 20px;
+}
+
+
+.btn__spare button {
+    width: 340px;
+    height: 70px;
+    background-color: #f7b516;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 15px;
+    border: none;
+}
+
+.btn__spare button:hover {
+    background-color: #c79112;
+}
+
+.form__input__spare {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
 }
 
 
