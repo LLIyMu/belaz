@@ -275,16 +275,15 @@ header {
 /* Spares block*/
 
 .spares__bg {
-   
+    width: 100%;
+    height: 580px;
     background: url('../img/spares_bg_img.png') no-repeat center;
-    background-size: cover;
     color: #fff;
     text-align: center;
 }
 
 .form__spare {
-    margin: 100px auto 25px;
-    text-align: center;
+    height: 510px;
 }
 
 .h4 p {
@@ -320,7 +319,43 @@ header {
     margin-top: 60px;
 }
 
+/*end Spares block*/
 
+/*Waranty block*/
+
+.waranty {
+    height: 800px;
+    background: #fff;
+    color: black;
+}
+
+.waranty__top__text {
+    text-align: center;
+    justify-content: center;
+    margin: 100px auto;
+}
+
+.waranty__items {
+    justify-content: space-between;
+    text-align: center;
+}
+
+.waranty__item p {
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+.waranty__item a {
+    color: #000;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.waranty__item a:hover {
+    color: rgb(56, 48, 48);
+    font-weight: bold;
+    font-size: 24px;
+}
 
 
 
