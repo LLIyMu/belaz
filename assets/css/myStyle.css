@@ -372,14 +372,27 @@ header {
 .discount__h2 {
     margin: 80px auto;
 }
+
 .discount__items {
+    justify-content: space-between;
     text-align: center;
 }
 
-.discount__item img{
+.discount__item {
+    width: 280px;
+    height: 320px;
+}
+
+.badge {
+    
+    height: 100px;
+    width: 100px;
     border: 2px solid #fff;
-    border-radius: 100%;
-    padding: 15px;
+    border-radius: 50%;
+}
+
+.badge img {
+    padding-top: 35%;
 }
 
 
