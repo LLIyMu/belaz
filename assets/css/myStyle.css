@@ -379,20 +379,30 @@ header {
 }
 
 .discount__item {
+    display: flex;
+    flex-direction: column;
     width: 280px;
     height: 320px;
 }
 
-.badge {
-    
+.discount__badge {
+    margin: 25px auto;
     height: 100px;
     width: 100px;
     border: 2px solid #fff;
     border-radius: 50%;
 }
 
-.badge img {
-    padding-top: 35%;
+.discount__badge img {
+    padding-top: 37%;
+}
+
+.badge__img {
+    padding-top: 25px !important;
+}
+
+.badge__img-truck {
+    padding-top: 30px !important;
 }
 
 
