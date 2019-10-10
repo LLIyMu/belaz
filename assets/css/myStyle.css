@@ -383,6 +383,11 @@ header {
     flex-direction: column;
     width: 280px;
     height: 320px;
+    font-weight: bold;
+}
+
+.discount__item p {
+    padding: 0 20px;
 }
 
 .discount__badge {
@@ -391,6 +396,7 @@ header {
     width: 100px;
     border: 2px solid #fff;
     border-radius: 50%;
+
 }
 
 .discount__badge img {
@@ -405,7 +411,62 @@ header {
     padding-top: 30px !important;
 }
 
+.question {
+    height: 760px;
+    background-color: #0b3554;
+    color: #fff;
+    font-weight: bold;
+}
 
+.question__header {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.question__main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.question__list {
+    margin-top: 100px;
+}
+
+.question__list__item {
+    line-height: 65px;
+
+}
+
+.question__list__item a {
+    text-decoration: underline;
+    color: white;
+    padding-left: 20px;
+}
+
+.question__list__item a:hover {
+    color: rgb(137, 135, 236)
+}
+
+.question__img {
+    margin-top: 100px;
+    background: url('../img/eduard.png') no-repeat;
+    width: 50%;
+    height: 390px;
+    position: relative;
+}
+
+.director {
+    padding-top: 7px;
+    padding-left: 15px;
+    width: 230px;
+    height: 55px;
+    background: #234e6f;
+    bottom: 0;
+    position: absolute;
+    opacity: .7;
+    font-size: 12px;
+}
 
 @media (max-width: 1366px) {
 
