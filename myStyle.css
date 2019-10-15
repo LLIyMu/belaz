@@ -1,0 +1,647 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif semi-bolder;
+}
+
+.col-12 {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 100px;
+    background-color: #191919;
+
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.wrapper {
+    width: 76%;
+    margin: 0 auto;
+    flex-wrap: nowrap;
+}
+
+/* header */
+.logo {
+    margin-top: 31px;
+}
+
+.logo__work {
+    margin: 32px auto auto 350px;
+}
+
+.logo__work p {
+    font-size: 8px;
+    font-weight: bold;
+    line-height: 15px;
+    text-align: center;
+    color: #fff;
+}
+
+.logo__phone {
+    margin-left: 9%;
+    margin-top: 24px
+}
+
+.logo__phone p {
+    color: #fff;
+    font-weight: bold;
+}
+
+.logo__button {
+    display: block;
+    margin-top: 41px;
+    margin-left: auto;
+}
+
+.logo__button a {
+    padding: 21px 28px;
+    color: #fff;
+    background-color: #1669b3;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+}
+
+.logo__button a:hover {
+    padding: 21px 28px;
+    color: #fff;
+    background-color: #095395;
+    text-decoration: none;
+    transition: 0.7s;
+}
+
+/* end header*/
+
+/* background-img belaz header */
+.background__img__top {
+    margin: 0;
+    padding: 0;
+    background: url(../img/header-img.png) no-repeat;
+    background-size: 100%;
+}
+
+/*block yellow square*/
+
+.yellow__square {
+    display: block;
+    background-color: #f7b516;
+    height: 80%;
+    width: 45%;
+}
+
+.wrapper__square {
+    display: inline-block;
+    justify-content: center;
+    width: 80%;
+    margin-left: 40px;
+
+}
+
+.wrapper__square h1 {
+    padding-top: 100px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.wrapper__square span {
+    display: block;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+.listen {
+    margin-top: 40px;
+    display: block;
+}
+
+
+.list-group li {
+    list-style: none;
+    font-weight: bold;
+    height: 30px;
+    margin-bottom: 35px;
+}
+
+.list-group img {
+    float: left;
+    padding-right: 25px;
+    padding-top: 10px;
+}
+
+
+.list-group p {
+    overflow: hidden;
+}
+
+.bg-img__price {
+    margin: 0;
+    padding: 0;
+    background: url(../img/price-img.png) no-repeat center -50px;
+    background-size: 100%;
+    height: 50%;
+}
+
+.bg-color__price {
+    background-color: #08243e;
+    height: 70%;
+}
+
+.form {
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.form__input {
+    margin-top: 25px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form__img-1 {
+    background: url(../img/mail.png) no-repeat center right 20px;
+    background-size: 7%;
+}
+
+.form__img-2 {
+    background: url(../img/phone.png) no-repeat center right 20px;
+    background-size: 7%;
+}
+
+.h3 {
+    align-items: flex-start;
+}
+
+.mail,
+.phone {
+    width: 350px;
+    justify-content: flex-end;
+    flex-basis: 25%;
+    align-items: center;
+
+}
+
+.mail input {
+    border: none;
+    width: 350px;
+    padding: 35px 45px;
+}
+
+.phone input {
+    border: none;
+    width: 350px;
+    padding: 35px 45px;
+    background-color: #fff;
+}
+
+.form__price {
+    margin-top: 25px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn__price,
+.price {
+    flex-basis: 33%;
+    align-items: flex-end;
+    font-weight: bold;
+    font-size: 0.9em;
+    background: url(../img/clock.png) no-repeat center right;
+}
+
+.price span {
+    width: 100%;
+    text-align: right;
+    display: block;
+    padding: 3px 45px;
+}
+
+.btn__price button {
+    width: 340px;
+    height: 60px;
+    background-color: #1866af;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.btn__price button:hover {
+    background-color: #095395;
+    transition: 0.7s;
+}
+
+/* end price header*/
+
+.bg-color__price {
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+
+.price__h2 {
+    width: 500px;
+    margin: 30px auto;
+}
+
+.price__h2 p {
+    margin: 15px auto;
+}
+
+.price__items {
+    margin-top: 50px;
+}
+
+.price__item p {
+    padding-top: 20px;
+    vertical-align: baseline;
+}
+
+.price__item img {
+    height: 80px;
+}
+
+/* Spares block*/
+
+.spares__bg {
+    width: 100%;
+    height: 580px;
+    background: url('../img/spares_bg_img.png') no-repeat center;
+    color: #fff;
+    text-align: center;
+}
+
+.form__spare {
+    height: 510px;
+}
+
+.h4 p {
+    line-height: 2em;
+    display: block;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.form__spare .h4 {
+    margin: 70px auto 25px;
+    font-size: 20px;
+}
+
+
+.btn__spare button {
+    width: 340px;
+    height: 70px;
+    background-color: #f7b516;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 15px;
+    border: none;
+}
+
+.btn__spare button:hover {
+    background-color: #c79112;
+}
+
+.form__input__spare {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+/*end Spares block*/
+
+/*Waranty block*/
+
+.waranty {
+    height: 800px;
+    background: #fff;
+    color: black;
+}
+
+.waranty__top__text {
+    text-align: center;
+    justify-content: center;
+    margin: 100px auto;
+}
+
+.waranty__items {
+    justify-content: space-between;
+    text-align: center;
+}
+
+.waranty__item p {
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+.waranty__item a {
+    color: #000;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.waranty__item a:hover {
+    color: rgb(56, 48, 48);
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/* end waranty*/
+
+/*Discount block*/
+
+.discount {
+    margin-top: 80px;
+    height: 580px;
+    background: #08243e;
+    color: #fff;
+}
+
+.discount__h2 {
+    margin: 80px auto;
+}
+
+.discount__items {
+    justify-content: space-between;
+    text-align: center;
+}
+
+.discount__item {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    height: 320px;
+    font-weight: bold;
+}
+
+.discount__item p {
+    padding: 0 20px;
+}
+
+.discount__badge {
+    margin: 25px auto;
+    height: 100px;
+    width: 100px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+
+}
+
+.discount__badge img {
+    padding-top: 37%;
+}
+
+.badge__img {
+    padding-top: 25px !important;
+}
+
+.badge__img-truck {
+    padding-top: 30px !important;
+}
+
+/*block QUESTIONS - ответы на вопросы*/
+
+.question {
+    height: 760px;
+    background-color: #0b3554;
+    color: #fff;
+    font-weight: bold;
+}
+
+.question__header {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.question__main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.question__list {
+    margin-top: 100px;
+}
+
+.question__list__item {
+    line-height: 65px;
+
+}
+
+.question__list__item .reload {
+    text-decoration: none;
+}
+
+.question__list__item .reload img {
+    margin-left: -35;
+    height: 20px;
+}
+
+.question__list__item a {
+    text-decoration: underline;
+    text-decoration-color: rgb(17, 133, 133);
+    color: white;
+    padding-left: 20px;
+}
+
+.question__list__item .reload p {
+    display: inline;
+    padding-left: 13px;
+}
+
+.question__list__item img,
+a:hover {
+    color: rgb(137, 135, 236)
+}
+
+.question__img {
+    margin-top: 100px;
+    background: url('../img/eduard.png') no-repeat;
+    width: 50%;
+    height: 390px;
+    position: relative;
+}
+
+.director {
+    padding-top: 7px;
+    padding-left: 15px;
+    width: 230px;
+    height: 55px;
+    background: #234e6f;
+    bottom: 0;
+    position: absolute;
+    opacity: .7;
+    font-size: 12px;
+}
+
+/*block ADVONTAGES-преимущества*/
+
+.advontages {
+    font-weight: bold;
+    height: 575px;
+}
+
+.advontages__top__text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.advontages__top__text h2 {
+    margin-top: 100px;
+}
+
+.advontages__top__text p {
+    padding-top: 32px;
+}
+
+.advontages__items {
+    justify-content: space-between;
+}
+
+.advontages__item {
+    text-align: center;
+    width: 230px;
+}
+
+.advontages__item img {
+    margin-top: 100px;
+}
+
+.advontages__item p {
+    padding-top: 50px;
+}
+
+/*block stock - склад*/
+
+.stock {
+    height: 670px;
+    background: #0b3554;
+    color: #fff;
+    font-weight: bold;
+}
+
+.stock__top__text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.stock__top__text p {
+    padding-top: 22px;
+}
+
+.stock__items {
+    overflow: hidden;
+    justify-content: space-between;
+}
+
+.stock__item img {
+    max-width: auto;
+}
+
+/*Repair__team ремонтная бригада*/
+
+.repair__team {
+    height: 700px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.repair__team__top__text {
+    margin-top: 100px;
+    justify-content: center;
+}
+.repair__team__items {
+    text-align: center;
+    justify-content: space-between;
+}
+
+.repair__team__item {
+    width: 300px;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.repair__team__item p {
+    padding-top: 30px;
+}
+
+
+.repair_border {
+    width: 140px;
+    height: 140px;
+    border: 5px solid #ffbc3b;
+    border-radius: 50%;
+    padding-top: 35px;
+    margin-left: 25%;
+}
+
+
+@media (max-width: 1460px) {
+
+    .stock__item img {
+        max-width: 350px;
+    }
+}
+
+@media (max-width: 1366px) {
+
+    .logo__work {
+        margin: 32px auto auto 250px;
+    }
+
+    .wrapper__square h1 {
+        padding-top: 55px;
+        font-size: 26px;
+    }
+
+    .listen {
+        margin-top: 25px;
+    }
+
+    .stock__item img {
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .logo__work {
+        margin: 32px auto auto 100px;
+    }
+}
+
+@media (max-width: 1000px) {
+
+    header div {
+        max-height: 100px;
+    }
+
+    .wrapper__square h1 {
+        padding-top: 0;
+        font-size: 20px;
+    }
+
+    .logo__work {
+        margin: 32px auto;
+    }
+
+    .logo__phone {
+        margin-left: auto;
+        margin-top: 24px
+    }
+}
