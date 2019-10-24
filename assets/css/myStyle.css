@@ -71,12 +71,15 @@ footer {
     text-transform: uppercase;
     text-decoration: none;
     text-align: center;
+    border: 2px solid #1669b3;
+    border-radius: 3px;
 }
 
 .logo__button a:hover {
     padding: 21px 28px;
     color: #fff;
     background-color: #095395;
+    border: 2px solid #095395;
     text-decoration: none;
     transition: 0.7s;
 }
@@ -236,10 +239,13 @@ footer {
     text-transform: uppercase;
     font-weight: bold;
     margin-left: 15px;
+    border: 2px solid #1866af;
+    border-radius: 3px;
 }
 
 .btn__price button:hover {
     background-color: #095395;
+    border: 2px solid #095395;
     transition: 0.7s;
 }
 
@@ -314,6 +320,10 @@ footer {
 
 .btn__spare button:hover {
     background-color: #c79112;
+    transition: 0.7s;
+    border: 2px solid #c79112;
+    border-radius: 3px;
+
 }
 
 .form__input__spare {
@@ -621,18 +631,22 @@ a:hover {
     justify-content: center;
     margin-top: 60px;
 }
+
 /*bootom adress - Приезжайте к нам в офис*/
 .foter_ofice {
     background: url(../img/foter_img.png) no-repeat center;
     color: #000;
     height: 400px;
 }
+
 .ofice_text {
     text-align: center;
 }
+
 .ofice_h3 {
     margin-top: 100px;
 }
+
 .ofice__text__bottom {
     margin-top: 100px;
 }
@@ -643,14 +657,16 @@ a:hover {
     text-align: center;
     justify-content: space-between;
 }
+
 .footer_team {
     padding-top: 3%;
 }
+
 .footer_phone {
     padding-top: 22px;
 }
 
-.footer_phone p{
+.footer_phone p {
     margin: 0;
 }
 
